@@ -30,7 +30,7 @@ def generateFingerprint(useragent):
       "fudgeFactor":1
    },
    "browser":{
-      "os": "macOS" if crios else False,
+      "os": "macOS" if crios else "Windows 10",
       "mobile": True if crios else False,
       "tablet": False,
       "engine":"WebKit",
